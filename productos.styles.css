@@ -1,8 +1,15 @@
 /* Estilos específicos para la página de productos */
 
+/* Cambiar el color de fondo del cuerpo de la página */
+body {
+    background-color: #4a4a4a; /* Cambia el color de fondo a gris claro */
+}
+
 /* Ajustar el tamaño de las imágenes en el carrusel */
 #carrusel-productos img {
-    max-height: 400px; /* Altura máxima de las imágenes en el carrusel */
+    max-height: 150px; /* Altura máxima de las imágenes */
+    max-width: 150px; /* Ancho máximo de las imágenes */
+    width: auto; /* Permitir que el ancho se ajuste automáticamente */
 }
 
 /* Alinear el texto en el carrusel */
