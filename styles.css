@@ -57,6 +57,12 @@ nav ul li a {
     height: auto;
 }
 
+/* Ajustar el tamaño de las imágenes en el carrusel */
+.carrusel-slide img {
+    max-width: 100%; /* Establece el ancho máximo de las imágenes al 100% del tamaño del contenedor */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción de aspecto */
+}
+
 /* Cambia el color de fondo de los botones de morado a blanco */
 button {
     background-color: #fff;

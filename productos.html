@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - Muebles Don TATI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Agrega el resto de tus estilos CSS después del enlace a Bootstrap -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,27 +19,42 @@
         </nav>
     </header>
 
-    <section id="carrusel-productos">
-        <!-- Aquí puedes agregar el código para tu carrusel de imágenes -->
-        <div class="carrusel-slide">
-            <img src="mesa_redonda.jpeg" alt="Mueble 1">
-            <h3>Mueble 1</h3>
-            <p>Descripción del mueble 1.</p>
-            <p>Precio: $100</p>
+    <section id="carrusel-productos" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="mesa_redonda.jpeg" class="d-block w-100" alt="Mueble 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Mueble 1</h5>
+                    <p>Descripción del mueble 1.</p>
+                    <p>Precio: $100</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="mesa2.jpeg" class="d-block w-100" alt="Mueble 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Mueble 2</h5>
+                    <p>Descripción del mueble 2.</p>
+                    <p>Precio: $150</p>
+                </div>
+            </div>
+            <!-- Puedes agregar más elementos carousel-item según sea necesario -->
         </div>
-        <div class="carrusel-slide">
-            <img src="mesa2.jpeg" alt="Mueble 2">
-            <h3>Mueble 2</h3>
-            <p>Descripción del mueble 2.</p>
-            <p>Precio: $150</p>
-        </div>
-        <!-- Puedes agregar más carruseles de imágenes según sea necesario -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-productos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel-productos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </section>
 
     <footer>
         <p>&copy; 2024 Muebles Don TATI. Todos los derechos reservados.</p>
     </footer>
 
-    <!-- Puedes agregar scripts adicionales si son necesarios -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- Agrega cualquier otro script adicional necesario -->
 </body>
 </html>
