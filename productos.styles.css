@@ -1,0 +1,17 @@
+/* Estilos específicos para la página de productos */
+
+/* Ajustar el tamaño de las imágenes en el carrusel */
+#carrusel-productos img {
+    max-height: 400px; /* Altura máxima de las imágenes en el carrusel */
+}
+
+/* Alinear el texto en el carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+    color: white; /* Color de texto blanco */
+    bottom: 0; /* Alinea el texto en la parte inferior del carrusel */
+    left: 0; /* Alinea el texto a la izquierda del carrusel */
+    right: 0; /* Alinea el texto a la derecha del carrusel */
+    padding: 20px; /* Espaciado interno del texto */
+    text-align: left; /* Alineación del texto */
+}
