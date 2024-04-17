@@ -1,0 +1,76 @@
+/* Estilos para tu página web */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative; /* Añade una posición relativa al cuerpo */
+}
+
+header {
+    background-color: #474747;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilos para los enlaces del menú de navegación */
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Estilos específicos para los enlaces del menú de navegación con IDs específicos */
+#inicio,
+#productos,
+#contacto {
+    color: #fff;
+}
+
+#seccion-con-imagen-de-fondo {
+    /* Estilos para la sección con imagen de fondo */
+}
+
+#productos {
+    text-align: center;
+}
+
+.producto {
+    width: calc(25% - 20px); /* Ancho del 25% con margen de 20px entre productos */
+    margin: 10px; /* Espacio entre productos */
+    float: left; /* Alinea los productos hacia el lado */
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+/* Cambia el color de fondo de los botones de morado a blanco */
+button {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Estilos para el texto de derechos reservados */
+footer {
+    position: absolute; /* Posición absoluta con respecto al cuerpo */
+    bottom: -720px; /* Ajusta la distancia desde la parte inferior */
+    right: 100px; /* Ajusta la distancia desde la derecha */
+    color: #111111fb; /* Color de texto blanco */
+}
